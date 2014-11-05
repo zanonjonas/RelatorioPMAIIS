@@ -16,9 +16,6 @@
 				<p class="sub-titulo2">3.#{statusHost.index+1} Host: #{h.host}</p>
 			</div> 
 			<ui:repeat value="#{h.instanciaVO}" var="i" varStatus="statusInstancia">
-				<div>
-					<p class="sub-titulo2">3.#{statusHost.index+1}.#{statusInstancia.index+1} Instância: #{i.instancia}</p>
-				</div> 
 				<ui:repeat value="#{i.graficoVO}" var="g" varStatus="statusGrafico">
 			  		<h:outputScript rendered="#{g.mesAno == 1 and g.tipoCalculo == 1}">
 						//Grafico mensal
