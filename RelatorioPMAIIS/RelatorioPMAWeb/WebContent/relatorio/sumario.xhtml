@@ -38,30 +38,15 @@
 					</ui:repeat>
 				</ul>
 			</li>
-			<li>4. Tamanho do banco de dados</li>
-			<li style="display: #{workloadBean.getCapHosts(4) == null ? 'none' : 'list-item'}">
-				<ul>
-					<ui:repeat value="#{workloadBean.getCapHosts(4)}" var="h" varStatus="statusHost">
-					<li>4.#{statusHost.index+1} Host: #{h.host}
-						<ul>
-							<ui:repeat value="#{h.instanciaVO}" var="i" varStatus="statusInstancia">
-							<li>4.#{statusHost.index+1}.#{statusInstancia.index+1} Instância: #{i.instancia}
-							</li>
-							</ui:repeat>
-						</ul>
-					</li>
-					</ui:repeat>
-				</ul>
-			</li>
-			
-			<li>5. Resumo de Paradas</li>
+						
+			<li>4. Resumo de Paradas</li>
 			<li>
 				<ul>
-					<li>5.1 Paradas Evitadas (PE)</li>
-					<li>5.2 Paradas Não Programadas (PNP)</li>
-					<li>5.3 Paradas Programadas Estratégicas (PPE)</li>
-					<li>5.4 Paradas Programadas (PP)</li>
-					<li>5.5 Totais</li>
+					<li>4.1 Paradas Evitadas (PE)</li>
+					<li>4.2 Paradas Não Programadas (PNP)</li>
+					<li>4.3 Paradas Programadas Estratégicas (PPE)</li>
+					<li>4.4 Paradas Programadas (PP)</li>
+					<li>4.5 Totais</li>
 				</ul>
 			</li>		
 		</ul>
