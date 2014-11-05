@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="RelatorioPMAEar">
+    <wb-module deploy-name="RelatorioPMAEarIIS">
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="RelatorioPMAWeb.war" deploy-path="/" handle="module:/resource/RelatorioPMAWeb/RelatorioPMAWeb">
+        <dependent-module archiveName="RelatorioPMAWebIIS.war" deploy-path="/" handle="module:/resource/RelatorioPMAWebIIS/RelatorioPMAWebIIS">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="RelatoriosPMAEjb.jar" deploy-path="/" handle="module:/resource/RelatoriosPMAEjb/RelatoriosPMAEjb">
+        <dependent-module archiveName="RelatoriosPMAEjbIIS.jar" deploy-path="/" handle="module:/resource/RelatoriosPMAEjbIIS/RelatoriosPMAEjbIIS">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="RelatoriosPMAVO.jar" deploy-path="/lib" handle="module:/resource/RelatoriosPMAVO/RelatoriosPMAVO">
+        <dependent-module archiveName="RelatoriosPMAVOIIS.jar" deploy-path="/lib" handle="module:/resource/RelatoriosPMAVOIIS/RelatoriosPMAVOIIS">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

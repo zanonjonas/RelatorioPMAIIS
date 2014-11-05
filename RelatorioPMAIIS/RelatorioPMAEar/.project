@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>RelatorioPMAEar</name>
+	<name>RelatorioPMAEarIIS</name>
 	<comment></comment>
 	<projects>
-		<project>RelatorioPMAWeb</project>
-		<project>RelatoriosPMAEjb</project>
-		<project>RelatoriosPMAVO</project>
+		<project>RelatorioPMAWebIIS</project>
+		<project>RelatoriosPMAEjbIIS</project>
+		<project>RelatoriosPMAVOIIS</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
