@@ -3,9 +3,9 @@
 	<name>RelatorioPMAEarIIS</name>
 	<comment></comment>
 	<projects>
-		<project>RelatorioPMAWebIIS</project>
-		<project>RelatoriosPMAEjbIIS</project>
-		<project>RelatoriosPMAVOIIS</project>
+		<project>RelatoriosPMAEjb</project>
+		<project>RelatorioPMAWeb</project>
+		<project>RelatoriosPMAVO</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
